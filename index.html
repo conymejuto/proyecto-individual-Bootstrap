@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Roboto+Slab:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Proyecto Individual Bootstrap</title>
+  </head>
+  <body>
+    <!--barra de navegación-->
+    <nav class="navbar navbar-expand-lg navbar-light barra-nav">
+      <div class="container-fluid">
+        <a class="navbar-menu1" href="./index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- nav-link active -->
+              <a class="navbar-menu" aria-current="page" href="#diseño"
+                >Diseño</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="navbar-menu" href="#parquizaciones">Parquizaciones </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="navbar-menu" href="#redes">Redes Sociales</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-menu" href="#contactos">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--seccion para imagen principal-->
+    <section class="seccion-cabecera">
+      <!-- <div class="titulos"> -->
+      <div class="titulos">
+        <h5 class="Titulo-principal">Diseñamos y Parquizamos tu Jardin</h5>
+
+        <h5 class="Titulo-principal1">My Garden Paisajismo</h5>
+      </div>
+    </section>
+    <!-- seccion diseño -->
+    <section class="seccion-diseño">
+      <div class="titulos" id="diseño">
+        <h2 class="Titulo-Diseño">Diseño de Espacios</h2>
+        <div class="card-diseño">
+          <div class="card" style="width: 18rem">
+            <img src="./images/diseño1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text tipo-font">
+                Diseño de Espacios que invitan al descanso y el disfrute dentro
+                de su hogar.
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="./images/diseño2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text tipo-font">
+                Diseño de Espacios Comunes Públicos y Privados. Siempre buscando
+                la armonía entre ciudad y vegetación.
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/diseño3.jpg"
+              height="190px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text tipo-font">
+                El interior de su hogar u oficina también puede tener un jardin.
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/diseño4.jpg"
+              height="190px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text tipo-font">
+                Los espacios pequeños decorados con plantas y macetas, marcan la
+                diferencia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seccion parquizaciones -->
+    <section class="seccion-diseño">
+      <div class="titulos" id="parquizaciones">
+        <h2 class="Titulo-Parqui">Parquizaciones</h2>
+      </div>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active carrousel-format">
+            <img src="./images/parque1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ROLLOS DE CESPED BRASILERO</h5>
+              <p>Venta de Césped Brasilero en Rollo por M2.</p>
+            </div>
+          </div>
+          <div class="carousel-item carrousel-format">
+            <img src="./images/parque2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>COLOCACION DE CESPED</h5>
+              <p>Hacemos entrega y colocación del césped.</p>
+            </div>
+          </div>
+          <div class="carousel-item carrousel-format">
+            <img src="./images/parque3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PARA TODOS LOS AMBIENTES</h5>
+              <p>Colocamos y vendemos para Empresas y Particulares.</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- seccion redes -->
+    <section class="seccion-diseño">
+      <div class="titulos" id="redes">
+        <h2 class="Titulo-Diseño">Buscanos en Nuestras Redes</h2>
+      </div>
+      <div class="container">
+        <div class="row align-text">
+          <div class="col-md-2">
+            <a
+              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+              target="_blank"
+              ><img src="./images/email.png" height="100px" alt="" />
+            </a>
+            <h4 class="my-4">Email</h4>
+          </div>
+          <div class="col-md-2">
+            <a href="https://es-la.facebook.com/" target="_blank">
+              <img src="./images/facebook.png" height="100px" alt="" />
+            </a>
+            <h4 class="my-4">Facebbok</h4>
+          </div>
+          <div class="col-md-2">
+            <a href=" https://twitter.com" target="_blank">
+              <img src="./images/twitter.png" height="100px" alt="" />
+            </a>
+            <h4 class="my-4">twitter</h4>
+          </div>
+          <div class="col-md-2">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="./images/instagram.png" height="100px" alt="" />
+            </a>
+            <h4 class="my-4">Instagram</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seccion contactos -->
+    <section class="seccion-contactanos">
+      <div class="titulos" id="contactos">
+        <h2 class="Titulo-Diseño">Contactanos</h2>
+      </div>
+
+      <div class="seccion-contactos"></div>
+      <div class="datos">
+        <h4>Telefono: XXXXXXXXXXXXXX</h4>
+        <h4>Dirección:TTTTTTTTTTTT</h4>
+        <h4>Horarios: Lu a Vie 8:00 a 17:00</h4>
+      </div>
+    </section>
+    <!--seccion -->
+    <section class="footer_font">
+      <div class="footer-letra">
+        <br />
+        <h5>MY GARDEN PAISAJISMO</h5>
+
+        <div class="footer-subletra">
+          <br />
+          <h6>
+            Realizamos Parquizaciones y Diseño de Espacios Verdes. No dudes en
+            consultarnos.
+          </h6>
+        </div>
+      </div>
+      <div class="footer-subletra">
+        <br />
+        <h7>POLITICA DE PRIVACIDAD TERMINOS Y CONDICIONES</h7>
+
+        <div class="footer-iconos">
+          <div>
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div>
+            <i class="fab fa-twitter-square"></i>
+          </div>
+          <div>
+            <i class="fab fa-instagram"></i>
+          </div>
+
+          <div>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+        <div class="footer-subletra">
+          <br />
+          <h7>@diseño web 2021</h7>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
